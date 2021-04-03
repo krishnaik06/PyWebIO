@@ -2,7 +2,7 @@
 from pywebio.input import *
 from pywebio.output import *
 def mathemticaloperation():
-    a = input("Enter the firt number：", type=FLOAT)
+    a = input("Enter the first number：", type=FLOAT)
     b = input("Enter the second number：", type=FLOAT)
     c=0
     operation = radio("Choose one operation", options=['+', '*', '/', '%'])
